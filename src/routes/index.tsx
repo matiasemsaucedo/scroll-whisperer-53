@@ -204,9 +204,7 @@ function Catalog() {
         <Reveal>
           <div className="text-center mt-14">
             <a
-              href={WHATSAPP}
-              target="_blank"
-              rel="noopener noreferrer"
+              href="#menu"
               className="inline-block bg-rose-deep text-white px-8 py-3.5 rounded-full text-sm font-medium tracking-wide hover:opacity-90 transition"
             >
               VER CATÁLOGO COMPLETO
