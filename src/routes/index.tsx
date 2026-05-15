@@ -180,7 +180,7 @@ function Catalog() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-7">
           {PRODUCTS.map((p, i) => (
             <Reveal key={p.name} delay={i * 100}>
-              <div className="group bg-card rounded-2xl overflow-hidden border border-border/60 hover:shadow-lg transition-all hover:-translate-y-1 duration-500">
+              <div className="group bg-card overflow-hidden border border-border/60 hover:shadow-lg transition-all hover:-translate-y-1 duration-500">
                 <div className="aspect-square overflow-hidden">
                   <img
                     src={p.img}
