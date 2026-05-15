@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import { ChevronDown, MessageCircle, Mail, Phone, Instagram, Heart, Leaf, ChefHat, Cake, ArrowRight } from "lucide-react";
 import { Logo } from "@/components/Logo";
 import { Reveal } from "@/components/Reveal";
+import { DigitalMenu } from "@/components/DigitalMenu";
 import tortas from "@/assets/tortas.jpg";
 import cookies from "@/assets/cookies.jpg";
 import cheesecake from "@/assets/cheesecake.jpg";
@@ -192,7 +193,7 @@ function Catalog() {
                 </div>
                 <div className="p-5 text-center">
                   <h3 className="font-script text-2xl text-foreground">{p.name}</h3>
-                  <a href="#contacto" className="inline-flex items-center gap-1 mt-2 text-sm text-rose-deep hover:gap-2 transition-all">
+                  <a href="#menu" className="inline-flex items-center gap-1 mt-2 text-sm text-rose-deep hover:gap-2 transition-all">
                     Ver más <ArrowRight className="w-3.5 h-3.5" />
                   </a>
                 </div>
@@ -212,6 +213,7 @@ function Catalog() {
             </a>
           </div>
         </Reveal>
+        <DigitalMenu />
       </div>
     </section>
   );
