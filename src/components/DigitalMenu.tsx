@@ -99,7 +99,7 @@ export function DigitalMenu() {
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 mt-10">
         {filtered.map((it, i) => (
           <Reveal key={`${it.category}-${it.name}`} delay={(i % 8) * 70}>
-            <article className="group h-full flex flex-col bg-card rounded-2xl overflow-hidden border border-border/60 hover:shadow-lg hover:-translate-y-1 transition-all duration-500">
+            <article className="group h-full flex flex-col bg-card overflow-hidden border border-border/60 hover:shadow-lg hover:-translate-y-1 transition-all duration-500">
               <div className="aspect-[4/3] overflow-hidden">
                 <img
                   src={it.img}
