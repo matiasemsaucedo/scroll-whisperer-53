@@ -180,7 +180,7 @@ function Catalog() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-7">
           {PRODUCTS.map((p, i) => (
             <Reveal key={p.name} delay={i * 100}>
-              <div className="group bg-card rounded-2xl overflow-hidden border border-border/60 hover:shadow-lg transition-all hover:-translate-y-1 duration-500">
+              <div className="group bg-card overflow-hidden border border-border/60 hover:shadow-lg transition-all hover:-translate-y-1 duration-500">
                 <div className="aspect-square overflow-hidden">
                   <img
                     src={p.img}
@@ -204,9 +204,7 @@ function Catalog() {
         <Reveal>
           <div className="text-center mt-14">
             <a
-              href={WHATSAPP}
-              target="_blank"
-              rel="noopener noreferrer"
+              href="#menu"
               className="inline-block bg-rose-deep text-white px-8 py-3.5 rounded-full text-sm font-medium tracking-wide hover:opacity-90 transition"
             >
               VER CATÁLOGO COMPLETO
@@ -243,7 +241,7 @@ function About() {
     <section id="nosotros" className="py-12 sm:py-20 bg-background">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <Reveal>
-          <div className="bg-[var(--rose-soft)]/60 rounded-3xl p-8 sm:p-12 md:p-16 grid md:grid-cols-2 gap-8 items-center">
+          <div className="bg-[var(--rose-soft)]/60 p-8 sm:p-12 md:p-16 grid md:grid-cols-2 gap-8 items-center">
             <div>
               <Heart className="w-5 h-5 text-rose-deep mb-3" fill="currentColor" />
               <h2 className="font-script text-4xl sm:text-5xl text-rose-deep">Sobre nosotros</h2>
