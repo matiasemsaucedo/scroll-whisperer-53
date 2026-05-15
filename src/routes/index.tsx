@@ -241,7 +241,7 @@ function About() {
     <section id="nosotros" className="py-12 sm:py-20 bg-background">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <Reveal>
-          <div className="bg-[var(--rose-soft)]/60 rounded-3xl p-8 sm:p-12 md:p-16 grid md:grid-cols-2 gap-8 items-center">
+          <div className="bg-[var(--rose-soft)]/60 p-8 sm:p-12 md:p-16 grid md:grid-cols-2 gap-8 items-center">
             <div>
               <Heart className="w-5 h-5 text-rose-deep mb-3" fill="currentColor" />
               <h2 className="font-script text-4xl sm:text-5xl text-rose-deep">Sobre nosotros</h2>
