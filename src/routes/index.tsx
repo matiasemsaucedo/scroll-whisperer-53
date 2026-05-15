@@ -213,6 +213,7 @@ function Catalog() {
             </a>
           </div>
         </Reveal>
+        <DigitalMenu />
       </div>
     </section>
   );
