@@ -111,13 +111,13 @@ export function DigitalMenu() {
               <div className="p-5 flex-1 flex flex-col">
                 <h4 className="font-script text-2xl text-foreground leading-tight">{it.name}</h4>
                 <p className="mt-1 text-sm text-muted-foreground flex-1">{it.description}</p>
-                <div className="mt-4 flex items-center justify-between gap-3">
-                  <span className="text-rose-deep font-semibold">{formatPrice(it.price)}</span>
+                <div className="mt-4 flex flex-wrap items-center justify-between gap-3">
+                  <span className="text-rose-deep font-semibold whitespace-nowrap">{formatPrice(it.price)}</span>
                   <a
                     href={`${WHATSAPP}${encodeURIComponent(it.name)}`}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-1.5 bg-[var(--rose-soft)] text-rose-deep px-4 py-2 rounded-full text-sm font-medium hover:bg-rose-deep hover:text-white transition"
+                    className="inline-flex items-center gap-1.5 bg-[var(--rose-soft)] text-rose-deep px-4 py-2 rounded-full text-sm font-medium hover:bg-rose-deep hover:text-white transition whitespace-nowrap"
                   >
                     <MessageCircle className="w-3.5 h-3.5" /> Pedir
                   </a>
