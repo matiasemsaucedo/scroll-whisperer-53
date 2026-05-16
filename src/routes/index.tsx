@@ -329,7 +329,7 @@ function Footer() {
   );
 }
 
-function Index() {
+export function Index() {
   return (
     <div className="min-h-screen bg-background">
       <Header />
