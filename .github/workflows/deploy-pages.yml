@@ -26,7 +26,7 @@ jobs:
       # Build with the repo name as the base path so assets resolve under
       # https://<user>.github.io/<repo>/
       - name: Build SPA
-        run: BASE_PATH="/${GITHUB_REPOSITORY#*/}/" bunx vite build --config vite.config.pages.ts
+        run: BASE_PATH="/scroll-whisperer-53/" bunx vite build --config vite.config.pages.ts
       # SPA fallback: copy index.html to 404.html so deep links work on Pages
       - run: cp dist-pages/index.html dist-pages/404.html
       - uses: actions/configure-pages@v5
